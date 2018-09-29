@@ -1,4 +1,4 @@
-﻿#RU Версия 1.1.6.411 (23.06.2018)
+#RU Версия 1.1.6.411 (23.06.2018)
 *Изменен веб адрес блога
 *Исправлено управление балансом Windows 10
 *Исправлен сброс баланса в Windows XP
@@ -9,6 +9,12 @@
 *Fixed balance control Windows 10
 *Fixed reseting balance on Windows XP
 *Fixed control volume of selected application
+
+#FR Version 1.1.6.411 (23.06.2018)
+*Changement de l'adresse du blog
+*Contrôle de l'équilibre fixe Windows 10
+*Correction de l'équilibre de réinitialisation sur Windows XP
+*Volume de contrôle fixe de l'application sélectionnée
 
 #RU Версия 1.1.5.404 (31.12.2017)
 *Исправлена функция установки громкости для устройства с Расписания
@@ -66,6 +72,26 @@
 *Fixed OSD context menu
 *Fixed Tool tip info for Windows 10
 +Added Indonesian language
+
+#FR Version 1.1.5.404 (31.12.2017)
+*Volume fixe corrigé pour le périphérique à partir de la tâche
+*Réinitialisation Balanse fixe (50/50)
+*Changement du nombre d'étapes Lorsque le solde du contrôle à 100 (était 36)
+*Correction BSOD sur Windows 10 FCU
++Ajout de l'option muet lorsque le volume est nul
++Ajout d'informations sur le lecteur OSD
+*Correction GitHub question #26
+*Correction GitHub question #28
++Ajout de nouvelles combinaisons de raccourcis clavier: SourisX1 + SourisMiddle, SourisX2 + SourisMiddle
+*Défini le périphérique par défaut pour Windows 10
+*Correction GitHub question #19 
++Ajout d'un nouveau skin dans la barre de tâche - Icône de périphérique
+*Accès Web mis à jour (pour activer l'utilisation du paramètre config.ini UseremoteServer)
++Clés média ajoutées
++Ajouté colorisation OSD Skins
+*Menu contextuel OSD fixe
+*Correction d'info-bulle pour Windows 10
++Ajout de la langue Indonésienne
 
 #DE Version 1.1.5.404 (31.12.2017)
 *Behoben OSD-Kontextmenü
@@ -148,6 +174,43 @@
 *Fixed audio playback on Windows 8
 *Fixed the appearance of the start menu after you change the volume
 +Added option to Run as Administrator
+
+#FR Version 1.1.4.347 (10.08.2015)
++Ajout d'une nouvelle balise %DF - Périphérique (carte son)
+*Correction de la désactivation du contrôle de volume dans les applications plein écran
+*Correction définir le périphérique par défaut et gérer les périphériques pour Windows 10
++Tâche ajoutée Mute activée/désactivée aux horaires
+*Tâche d'exécution fixe lorsque l'heure de début est supérieure à la fin
++Option ajoutée désactiver la plage horaire
+*Correction du volume de la tâche Schedule set Win 7 et supérieur
++Ajout des applications de réinitialisation du volume à Master on Hotkeys
+*Correction de l'accrochage au bord dans PeakMeter
+*Correction d'informations de licence Show après le programme de redémarrage
+*Correction d'un aperçu de l'OSD
+*Correction: contrôle du volume sur la deuxième barre des tâches (sur le deuxième écran) ne fonctionne pas dans les applications plein écran
++Ajout de nouvelle taille pour l'icône de plateau 20px
+*Molette horizontal fixe dans katmouse
++Icône du programme principal mis à jour, également changé des icônes d'interface
++Ajout de l'option Gérer devisec (désactiver/activer) dans le menu contextuel
++Ajout d'action stand par aux raccourcis clavier
++Options ajoutées dans la planification: début à la fin (pour effectuer la tâche dans la plage de temps)
+/Suppression de la bannière avec le projet
+*Chargement fixe des skins avec une erreur dans la structure (dans le journal est ajouté dans quelle erreur de fichier)
++Ajout d'une liste avancée de classes pour les fonctions katmouse (uniquement dans config.ini)
+*Correction: ouvrir les paramètres du programme après un redémarrage du PC à Win8
++Ajout de la possibilité d'exclure des programmes en plein écran sur le masque (ou le dossier)
++Ajout de la possibilité de modifier la taille de l'OSD (sur le clic droit)
++Ajout de l'option de coller OSD sur les bords de l'écran
++Fonction ajoutée pour désactiver le volume du bouton central lorsque nous contrôlons au bord de l'écran
+*Correction: réinstallation du crochet après la reprise de la mise en veille
++Ajouté: désactiver le menu d'affichage à l'écran (OSD), touche de raccourci, molette de contrôle de la souris et de gestion au bord de l'écran dans les applications en plein écran
++Ajout d'une nouvelle combinaison pour les touches de raccourci: le bouton moyen de la souris + Molette
+*Paramètres de démarrage de l'application fixe dans les raccourcis horaire et clavier
++Calendrier a ajouté la possibilité de définir le volume pour le périphérique
+*Enregistrer les options pour désactiver le volume² (souris, clavier)
+*Correction de la lecture audio sur Windows 8
+*Correction de l'apparence du menu démarrer après avoir modifié le volume
++Ajout d'une option pour exécuter en tant qu'administrateur
 
 #DE Version 1.1.4.347 (10.08.2015)
 +Added new tag %DF - Device (Sound Card)
@@ -236,7 +299,27 @@
 *Fixed: PeakMeter placement on the second monitor
 +Added PeakMeter binding to the device by default (automatic switching)
 +Added ability to control the recording devices(Win7/Win8)
- 
+
+#FR Version 1.1.3.247 (10.02.2013)
+*Correction d'un bug avec le système Hang lorsque le périphérique USB connecté (sur certains PC avec Win7 x64)
++Fonction ajoutée désactiver le volume²
++Ajout du mode OSD "gadget" (OSD affiche toujours)
++Ajout d'une fonction de réparation du volume lorsque vous démarrez le programme (pour Win7, lorsque certains utilisateurs sur un seul PC)
++Ajout d'un contrôle de volume de place de plus avec la roue: n'importe où sur l'écran
++Dans l'option système de la barre d'options ajoutée définir le périphérique par défaut
++Ajout de la fonction muet tout sauf application active sur les raccourcis clavier
++Ajout d'options de Skin OSD
++Ajout d'un nouveau paramètre pour la chaîne de commande Debug (toutes les erreurs affichées à l'écran)
++Ajout d'options de redémarrage automatique des crochets
++Ajout d'une nouvelle fonction aux raccourcis clavier: définir la luminosité pour cent
++Ajout d'un indicateur de crête sur l'OSD
++Touches ajoutées que vous pouvez définir comme raccourcis clavier dans Volume²: Win+Haut, Win+Basn, Win+Gauche, Win+Droite
++Ajouter des événements sur Hotkey: éteindre PC, redémarrer PC, éteindre le moniteur (uniquement pour la veille)
+*Correction d'un bug avec le contrôle de volume dans la liste des applications (x64)
+*Correction: placement PeakMeter sur le second moniteur
++Ajout de la liaison PeakMeter à l'appareil par défaut (commutation automatique)
++Capacité supplémentaire de contrôler les périphériques d'enregistrement (Win7/Win8)
+
 #RU Версия 1.1.2 (08.01.2012)
 *Уменьшен обьм занимаемой памяти до 3-4Мб
 *Исправлена ошибка зависание ОС при использовании мышек с дополнительными кнопками
@@ -305,6 +388,38 @@
 +Added ability set default device (available for installation on the hotkeys)
 +Added load version history for each language separately
 +Added highlighting the default device in the device list
+
+#FR Version 1.1.2 (08.01.2012)
+*Diminution de la mémoire utilisée à 3-4 Mo
+*Correction d'un bug lorsque vous utilisez la souris avec des boutons supplémentaires
+*Fenêtre des paramètres d'apparence modifiée
++Indicateur de volume ajouté (disponible dans le menu de la barre système)
++Ajout de nouvelles langues d'interface: Anglais, Serbe, Portugais, Brésilien, Arménien
++Nom de la police et la taille stockée dans une langue de fichier pour chaque formulaire séparément, ce qui vous permet de définir votre police
++Ajout de canaux de contrôle de balance dans la fenêtre contextuelle de la barre d'installation
+*Correction sonore fixe dans les applications plein écran avec option est activée
++Activer le bouton Appliquer/OK lorsque les paramètres sont modifiés
++Ajout de contrôle du volume des applications sélectionnées et actives (Win7)
+*Error deleting application from list in the "Turn off the volume in full-screen applications"
++Ajout du chargement de tous les périphériques de lecture dans la liste des périphériques (surligné en gris inactif)
++Ajout de la liste des périphériques de recharge lorsque vous modifiez leur statut (activer/désactiver)
+*Focus ne se déplace pas dans une fenêtre contextuelle au bord de l'écran lorsque vous cliquez sur la souris sur elle
++Ajout d'un avertissement sur l'extraction/insertion d'un lecteur flash USB à l'aide de l'OSD
+*Ne fonctionne pas cases à cocher semaine
+*Ne pas exécuter l'événement a bien fonctionné, "Quotidien"
++Fenêtre "mélangeur de volume" s'ouvre dans le coin inférieur droit (ou si la barre des tâches n'est pas en bas-dans le coin où le plateau est disponible) (Vista/7)
+*Charger les applications bit 32 et 64 dans la liste des processus (disponible dans tous les emplacements)
++Ajout de l'affichage OSD lors du changement de luminosité de l'écran avec touches
++Ajout de la fonction Set de luminosité d'origine touches
++Ajout de la sortie OSD lors du changement de volume dans le système XP/Vista/7
++Raccourcis clavier pour suspendre, ScrolLock, Accueil, Insérer, PageHaut, PageBas, Suppr., touches de fin sans modificateurs
+*Coordonnées OSD maintenant float, amélioration de la précision de positionnement
++Affichage de l'état de la batterie ajouté pour touches
++Fonction ajoutée pour contrôler chaque canal, permettant le rapport du volume n'est pas réinitialisé lorsque vous l'installez à 0
++Nouvelle commande à CMD'/?', 'INC n', 'DEC n', où n-nombre de 0 à 100-le pourcentage de volume
++Ajout de la capacité définie dispositif par défaut (disponible pour l'installation sur les raccourcis clavier)
++Ajout de l'historique des versions de charge pour chaque langue séparément
++Ajout de la mise en surbrillance du périphérique par défaut dans la liste des périphériques
 
 #RU Версия 1.1.1 (28.06.2011)
 +Добавлена поддержка Unicode в программе
